@@ -1,3 +1,5 @@
+@import "./button.css";
+@import "./header.css";
 :root{
     --fontBase:'Poppins', sans-serif;
     --headLine1: bold 95px/153.71px var(--fontBase);
@@ -18,8 +20,4 @@ body{
     background: var(--gradient);
     min-block-size: 100vh;
     font: var(--body1)
-}
-.header{
-    display: flex;
-    justify-content: space-between;
 }
