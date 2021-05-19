@@ -1,0 +1,19 @@
+.coment {
+   text-align: center;
+   padding-top: 40px;
+}
+.coment h2 {
+   font: var(--body1);
+}
+.coment p {
+   font: var(--headLine5);
+}
+.coment img {
+   width: 80px;
+   height: 80px;
+}
+@media screen and (min-width: 1024px) {
+   .coment {
+      padding: 200px 233px;
+   }
+}

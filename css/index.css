@@ -4,6 +4,8 @@
 @import "./hero.css";
 @import "./wrapper.css";
 @import "./menu.css";
+@import "./coment.css";
+
 :root{
     --fontBase:'Poppins', sans-serif;
     --headLine1: bold 95px/153.71px var(--fontBase);
@@ -19,6 +21,10 @@
     --purple: #310A90;
     --green: #42E2B8;
     --white: #fff;
+}
+*{
+    padding: 0;
+    margin: 0;
 }
 body{
     background: var(--gradient);
