@@ -8,6 +8,8 @@
     padding-block-end: 13px;
     border-radius: 4px;
     text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
     border:none;
 }
 .button.is-secondary{
