@@ -35,8 +35,8 @@
    .project-description {
       flex: 1;
    }
-   .project:nth-child(odd) .project-image {
-      order: 2;
+   .project-description.project-image {
+      order: 1;
       flex: 1;
       text-align: center;
    }

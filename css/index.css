@@ -7,6 +7,9 @@
 @import "./coment.css";
 @import "./crad-coment.css";
 @import "./project.css";
+@import "./project.css";
+@import "./social.css";
+@import "./footer.css";
 
 :root{
     --fontBase:'Poppins', sans-serif;

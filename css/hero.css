@@ -8,9 +8,7 @@
   max-inline-size: 100%;
   block-size:auto;
 }
-.hero-social{
-    padding-block-end:24px;
-}
+
 .hero-description{
     display: flex;
     flex-direction: column;
