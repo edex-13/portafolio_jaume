@@ -103,22 +103,42 @@
             <p>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</p>
             <span>MARCO CORTEZ / NETNET</span>
          </section>
-         <footer class="footer">
-            <div class="footer-logo">
-               <img src="./images/logo.svg" width="70" height="20" alt="logo del portafolio" />
+         <form action="" method="POST" class="form">
+            <div class="form-content">
+               <h2 class="title">Hablemos</h2>
+               <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
+               <label for="form-name">
+                  Nombre Completo
+                  <input required name="name" id="form-name" type="text" placeholder="juan" />
+               </label>
+               <label for="form-name">
+                  Correo electrónico
+                  <input required name="email" id="form-name" type="email" placeholder="juan" />
+               </label>
+               <label for="form-name">
+                  Mensaje
+                  <textarea required name="message" placeholder="Mensaje" id="form-message" cols="30" rows="7"></textarea>
+               </label>
+               <button class="button" type="submit">Enviar mensaje</button>
             </div>
-            <div class="social">
-               <a class="button-icon"><img src="./icons/icon-phone.svg" alt="" /></a>
-               <a class="button-icon"><img src="./icons/icon-important_mail.svg" alt="" /></a>
-               <a class="button-icon"><img src="./icons/icon-instagram.svg" alt="" /></a>
-               <a class="button-icon"><img src="./icons/icon-twitter.svg" alt="" /></a>
-            </div>
-            <div class="footer-copyright">
-               <p>Hecho con ♥ de Ederson.</p>
-               <p>Copyright 2021 - Todos los derechos reservados.</p>
+         </form>
+         <footer class="footer" id="contact">
+            <div class="footer-content">
+               <div class="footer-logo">
+                  <img src="./images/logo.svg" width="70" height="20" alt="logo del portafolio" />
+               </div>
+               <div class="social">
+                  <a class="button-icon"><img src="./icons/icon-phone.svg" /></a>
+                  <a class="button-icon"><img src="./icons/icon-important_mail.svg" /></a>
+                  <a class="button-icon"><img src="./icons/icon-instagram.svg" /></a>
+                  <a class="button-icon"><img src="./icons/icon-twitter.svg" /></a>
+               </div>
+               <div class="footer-copyright">
+                  <p>Hecho con el ❤️ por Leo.</p>
+                  <p>Copyright 2021 - Todos los derechos reservados.</p>
+               </div>
             </div>
          </footer>
-         
       </div>
    </body>
 </html>
