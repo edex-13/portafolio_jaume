@@ -10,25 +10,29 @@
       <link rel="stylesheet" href="./css/index.css" />
    </head>
    <body>
+      <header class="header">
+         <div class="wrapper">
+            <div class="header-content">
+               <img src="./images/logo.svg" width="70" height="20" alt="logo del portafolio" />
+               <nav class="menu" aria-label="main-navigation">
+                  <ul>
+                     <li>
+                        <a class="is-active" href="#main">Hola</a>
+                     </li>
+                     <li>
+                        <a href="#project">Proyectos</a>
+                     </li>
+                     <li>
+                        <a href="#contact">Hablemos</a>
+                     </li>
+                  </ul>
+               </nav>
+               <button class="button">Curriculum</button>
+            </div>
+         </div>
+      </header>
       <div class="wrapper">
-         <header class="header">
-            <img src="./images/logo.svg" width="70" height="20" alt="logo del portafolio" />
-            <nav class="menu">
-               <ul>
-                  <li>
-                     <a class="is-active" href="#main">Hola</a>
-                  </li>
-                  <li>
-                     <a href="#project">Proyectos</a>
-                  </li>
-                  <li>
-                     <a href="#contact">Hablemos</a>
-                  </li>
-               </ul>
-            </nav>
-            <button class="button">Curriculum</button>
-         </header>
-         <section class="hero">
+         <section class="hero" id="main">
             <div class="hero-image">
                <img src="./images/user.png" width="238" height="230" alt="foto de Jaumen" />
             </div>
@@ -47,7 +51,7 @@
                <a href="#" class="button">Descargar Curriculum</a>
             </div>
          </section>
-         <section class="coment">
+         <section class="coment" id="project">
             <h2>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</h2>
             <p>Aquí hay algunos que me gustaría compartir.</p>
             <img src="./icons/icons-down.svg" alt="bajar" />
@@ -72,7 +76,7 @@
          </section>
 
          <div class="project">
-            <div class="project-image">
+            <div class="project-image right">
                <img src="./images/project2.png" alt="Proyecto 2" />
             </div>
             <div class="project-description">
@@ -134,7 +138,7 @@
                   <a class="button-icon"><img src="./icons/icon-twitter.svg" /></a>
                </div>
                <div class="footer-copyright">
-                  <p>Hecho con el ❤️ por Leo.</p>
+                  <p>Hecho con el ❤️ por ederson.</p>
                   <p>Copyright 2021 - Todos los derechos reservados.</p>
                </div>
             </div>

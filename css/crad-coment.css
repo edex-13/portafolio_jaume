@@ -6,7 +6,7 @@
    border: 4px solid;
    border-image: radial-gradient(83.14% 78.52% at -12.32% -18.69%, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%);
    border-image-slice: 1;
-   margin: 100px 0px;
+   margin: 90px 0px;
 }
 .card-coment img {
    width: 64px;

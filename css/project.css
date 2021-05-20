@@ -35,8 +35,8 @@
    .project-description {
       flex: 1;
    }
-   .project-description.project-image {
-      order: 1;
+   .project-image.right {
+      order: 2;
       flex: 1;
       text-align: center;
    }
