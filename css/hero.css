@@ -4,6 +4,10 @@
 .hero-image{
     text-align: center;
 }
+.heros-image img {
+  max-inline-size: 100%;
+  block-size:auto;
+}
 .hero-social{
     padding-block-end:24px;
 }
