@@ -5,6 +5,7 @@
 @import "./wrapper.css";
 @import "./menu.css";
 @import "./coment.css";
+@import "./crad-coment.css";
 
 :root{
     --fontBase:'Poppins', sans-serif;
